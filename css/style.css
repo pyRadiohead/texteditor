@@ -76,6 +76,7 @@ textarea {}
 	width: 100%;
 	height: auto;
 	padding: 10px;
+	resize: 0;
 
 	/*border-color: transparent;*/
 }
@@ -83,10 +84,6 @@ textarea {}
 #text-editor:focus {
 	background: #fff;
 	outline: none;
-}
-
-#itext-editor:focus {
-	outline: 0;
 }
 
 .hot-keys {
